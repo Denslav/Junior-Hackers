@@ -98,6 +98,14 @@ span.psw {
     from {transform: scale(0)} 
     to {transform: scale(1)}
 }
+@media screen and (max-width: 600px){
+    .modal {
+        padding-top: 10px;
+    }
+    .modal-content {
+        width: 80%; 
+    }
+}
 
 @media screen and (max-width: 300px) {
     span.psw {
